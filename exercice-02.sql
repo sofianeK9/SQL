@@ -25,14 +25,16 @@ WHERE id = 6
 -- Insérez un tag :
 -- - nom : SASS
 -- - description : aucune
-
+INSERT INTO tag (name, description)
+VALUES ('SASS', NULL);
 -- Exo 2.2
 -- Insérez une school year :
 -- - nom: Promo 2023
 -- - description : La promo de l'année 2023
 -- - date de début : 15 mars 2023
 -- - date de fin : aucune
-
+INSERT INTO school_year (name, description, strart_date, end_date)
+VALUES ('Pomo 2023', 'La promo de l\'annee 2023','2021-03-15', NULL);
 -- Exo 2.3
 -- Créez une relation entre un student et un tag :
 -- - student : Toto (id 1)
